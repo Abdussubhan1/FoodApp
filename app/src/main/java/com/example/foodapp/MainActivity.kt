@@ -67,12 +67,12 @@ class MainActivity : ComponentActivity() {
 
 
 
-            LearningCompose(imagesOfItems, nameOfItems, priceOfItems)
+            Food(imagesOfItems, nameOfItems, priceOfItems)
         }
     }
 }
 @Composable
-fun LearningCompose(
+fun Food(
     imagesOfItems: Array<Int>,
     nameOfItems: Array<String>,
     priceOfItems: Array<String>
